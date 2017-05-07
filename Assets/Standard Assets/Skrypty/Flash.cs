@@ -5,7 +5,7 @@ using UnityEngine;
 public class Flash : MonoBehaviour {
 
     // Your light gameObject here.
-    public Light light;
+    public Light obLight;
 
     // Array of random values for the intensity.
     private float[] smoothing = new float[20];
@@ -22,9 +22,9 @@ public class Flash : MonoBehaviour {
     void Update()
     {
         if (Input.GetButtonDown("Latarka"))
-            light.enabled = !light.enabled;
+            obLight.enabled = !obLight.enabled;
 
-        if (light.enabled)
+        if (obLight.enabled)
         {
             float sum = .0f;
 
@@ -42,7 +42,7 @@ public class Flash : MonoBehaviour {
 
             // Compute the average of the array and assign it to the
             // light intensity.
-            light.intensity = sum / smoothing.Length;
+            obLight.intensity = sum / smoothing.Length;
         }
     }
 }
