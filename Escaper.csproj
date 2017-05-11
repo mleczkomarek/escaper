@@ -130,6 +130,9 @@
     <Compile Include="Assets\RK.Team Assets\Modular Road Block\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\RK.Team Assets\Modular Road Block\Scripts\MouseOrbitImproved.cs" />
     <Compile Include="Assets\RK.Team Assets\Modular Road Block\Scripts\RoadBlockGenerator.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
     <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
